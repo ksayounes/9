@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Younexit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div>
+            <button onclick="translateToArabic()">Arabic</button>
+            <button onclick="translateToEnglish()">English</button>
+            <button id="dark-mode-toggle">Reader</button> <!-- New button for dark mode -->
+        </div>
+        <div class="container">
+            <h1 id="title">Younexit</h1>
+            <h2 id="subtitle">Younexit company provides exceptional services in writing, graphic design, and web development, delivering tailored solutions to meet your needs.</h2>
+            <p id="founder">
+                Founded by <a href="https://ksayounes.github.io/KsaYounes-web/">Younes Ksassoua</a> from <a href="https://g.co/kgs/BZZDW2i">Morocco</a>
+            </p>
+            <a href="https://www.instagram.com/ksa.younes/" class="link-github">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+                        <path d="M32 12.408l-11.056-1.607-4.944-10.018-4.944 10.018-11.056 1.607 8 7.798-1.889 11.011 9.889-5.199 9.889 5.199-1.889-11.011 8-7.798z"></path>
+                    </svg>
+                </span>
+                My Instagram
+            </a>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">Writing Services</a></li>
+            <li><a href="#guidelines">Graphic Design Services</a></li>
+            <li><a href="#contribute">Web Development Services</a></li>
+        </ul>
+    </nav>
+    <main id="main" tabIndex="-1">
+        <div class="container">
+            <article id="about">
+                <section class="container">
+                    <h2 id="writing-services-title">Writing Services:</h2>
+                    <p id="writing-services-description">
+                        <strong>Our writing services offer top-notch content creation and refinement, ensuring your words resonate and shine. Our team of skilled writers brings diverse expertise across various subjects, providing tailored content that meets your specific needs. From blog posts and articles to marketing copy and academic papers, we deliver polished, engaging, and high-quality work.</strong>
+                    </p>
+                    <p id="writing-services-contact">
+                        <strong>Contact Us:</strong> Contact us via <a href="https://wa.me/2120696934044">WhatsApp</a> to know more about our writing services.
+                    </p>
+                    <img src="writing_services_image.svg" alt="Writing Services Image">
+                </section>
+            </article>
+            <article id="guidelines">
+                <section class="container">
+                    <h2 id="graphic-design-title">Graphic Design Services</h2>
+                    <p id="graphic-design-description">
+                        Our graphic design services focus on delivering visually stunning and effective designs tailored to your brand and audience. From logos and branding materials to digital assets and promotional materials, our team utilizes creative expertise and industry-leading tools to bring your vision to life.
+                    </p>
+                    <p id="graphic-design-contact">
+                        <strong>Contact Us:</strong> Contact us via <a href="https://wa.me/2120696934044">WhatsApp</a> to know more about our graphic design services.
+                    </p>
+                    <img src="graphic_design_services_image.jpg" alt="Graphic Design Services Image">
+                </section>
+            </article>
+            <article id="contribute">
+                <section class="container">
+                    <h2 id="web-development-title">Web Development Services</h2>
+                    <p id="web-development-description">
+                        Our web development services encompass the creation of responsive, functional, and user-friendly websites and web applications. Whether you need a simple landing page or a complex e-commerce platform, our team combines technical expertise with creativity to build digital solutions that drive results and enhance your online presence.
+                    </p>
+                    <p id="web-development-contact">
+                        <strong>Contact Us:</strong> Contact us via <a href="https://wa.me/2120696934044">WhatsApp</a> to know more about our web development services.
+                    </p>
+                    <img src="web_development_services_image.jpg" alt="Web Development Services Image">
+                </section>
+            </article>
+        </div>
+        <div class="circle"></div>
+    </main>
+    <script src="translate.js"></script>
+    <script src="dark-mode.js"></script>
+</section>
+</body>
+</html>
