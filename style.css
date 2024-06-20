@@ -680,3 +680,6 @@ body {
   left: calc(var(--circle-size) / 2 * -1);
   pointer-events: none;
 }
+body {
+  animation: fadeIn 1s ease-in-out forwards;
+}
